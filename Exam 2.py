@@ -26,3 +26,4 @@ columns_to_compare = ['Number_of_Customers', 'Menu_Price', 'Marketing_Spend',
 for column in columns_to_compare:
     perform_regression(column, 'Monthly_Revenue')
 
+print("Go Brewers!")
